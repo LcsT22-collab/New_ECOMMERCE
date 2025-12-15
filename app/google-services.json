@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "25170962950",
+    "project_id": "examen-final-android-73e2b",
+    "storage_bucket": "examen-final-android-73e2b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25170962950:android:51c21218485f0ded3a7187",
+        "android_client_info": {
+          "package_name": "pe.idat.apk_ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhu-_hQteTnmnkEY2-sOE7TxKMEL-Q5ZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25170962950:android:4e681bb9ab1289243a7187",
+        "android_client_info": {
+          "package_name": "pe.idat.e_commerce_ef"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhu-_hQteTnmnkEY2-sOE7TxKMEL-Q5ZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25170962950:android:ce90ea468c6b7d043a7187",
+        "android_client_info": {
+          "package_name": "pe.idat.e_f_a_m"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhu-_hQteTnmnkEY2-sOE7TxKMEL-Q5ZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

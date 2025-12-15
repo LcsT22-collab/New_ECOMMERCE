@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Icono de tienda completa (sin círculo, el sistema lo hará redondo) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M40,36 L68,36 L68,28 L62,28 L62,24 L58,24 L58,28 L50,28 L50,24 L46,24 L46,28 L40,28 Z"/>
+
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M36,40 L72,40 L72,76 L36,76 Z"/>
+
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="2"
+        android:pathData="M44,36 L44,40"/>
+
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="2"
+        android:pathData="M64,36 L64,40"/>
+
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="3"
+        android:pathData="M44,52 L64,52"/>
+
+</vector>

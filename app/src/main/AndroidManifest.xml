@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_store_round"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_store_round"
+        android:theme="@style/Theme.EcommerceEF">
+
+        <!-- Login es LAUNCHER -->
+        <activity
+            android:name=".presentation.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Otras actividades -->
+        <activity
+            android:name=".presentation.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="MissingClass" />
+
+        <activity
+            android:name=".presentation.ProductListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".presentation.ProductDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".presentation.CartActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".presentation.CheckoutActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".presentation.FavoritesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".presentation.ProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".presentation.RegisterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+    </application>
+</manifest>
