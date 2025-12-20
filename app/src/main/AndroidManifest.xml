@@ -13,7 +13,6 @@
         android:roundIcon="@drawable/ic_launcher_store_round"
         android:theme="@style/Theme.EcommerceEF">
 
-        <!-- Login es LAUNCHER -->
         <activity
             android:name=".presentation.LoginActivity"
             android:exported="true"
@@ -25,7 +24,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Otras actividades -->
         <activity
             android:name=".presentation.MainActivity"
             android:exported="false"

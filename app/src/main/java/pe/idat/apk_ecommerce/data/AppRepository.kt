@@ -19,7 +19,6 @@ class AppRepository(context: Context) {
     private val productDao = AppDatabase.getDatabase(context).productDao()
     private val auth = FirebaseAuth.getInstance()
 
-    // Agregar TAG para logs
     private companion object {
         const val TAG = "AppRepository"
     }

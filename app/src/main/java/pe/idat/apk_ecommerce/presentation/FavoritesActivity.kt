@@ -20,7 +20,6 @@ class FavoritesActivity : BaseActivity() {
     private lateinit var viewModel: AppViewModel
     private lateinit var productAdapter: ProductAdapter
 
-    // Agregar TAG para logs
     private companion object {
         const val TAG = "FavoritesActivity"
     }

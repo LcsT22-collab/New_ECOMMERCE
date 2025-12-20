@@ -24,7 +24,6 @@ class ProfileActivity : BaseActivity() {
     private fun setupViews() {
         binding.btnBackProfile.setOnClickListener { onBackPressed() }
         binding.btnChangePassword.setOnClickListener {
-            // Puedes agregar funcionalidad aquí si lo deseas
         }
     }
 
